@@ -1,7 +1,9 @@
 # Sticky_Note_Application
 This sticky note application allows a user to create multilevel sticky notes with some features like search, create top-level notes, create multi level sub notes under top-level note, delete notes and persist/store  notes on local storage of browser. Run the StickyNote_V1.html file to run the application. This has some browser's dependencies in running the application. 
 
+
 The detailed features has been given as below in requirements format.
+
 (A) Basic Features [Target-1]
 	1. A user should be able to create notes, where each note is made up of some text.
 	2. One should be able to create s sub-note to a parent note by clicking on "New note" button.
