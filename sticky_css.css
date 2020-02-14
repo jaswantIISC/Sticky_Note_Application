@@ -1,0 +1,149 @@
+
+.btn-group-sm>.btn, .btn-sm {
+   border-radius: 0rem; 
+  }
+
+.btn-success {
+    color: #fff;
+    background-color: #093e10;
+    border-color: #093e10;
+   font-size: 0.8em;
+}
+.topnav{
+	overflow: hidden;
+	background-color: #333;
+}
+.topnav a{
+	float: left;
+    padding: 14px 16px;
+    font-size: 1.2em;
+	text-decoration: none;
+	text-align: center;
+	color: #f2f2f2;
+ 
+}
+.topnav a.active{
+	background-color: #4CAF50;
+  color: white;
+    font-size: 1.7em;
+   font-weight: bold ;
+    padding: 10px 16px;
+}
+.topnav .search-container {
+  float: right;
+  font-size: 1em;
+  
+}
+
+.topnav #searchString {
+    padding: 6px;
+    padding-left: 32px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: white;
+    color: #4CAF50;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+#controller{
+	padding: 5%;
+	text-align:center;
+  font-size: 1em;
+}
+
+#controller #main-content {
+ padding: 0.9% 1%;
+  /*  font-size: 16px;*/
+    width: 50%;
+}
+
+#controller #submit-note {
+    padding: 1%;
+  /*  font-size: 18px;*/
+    background-color: #4CAF50;
+    color: #f2f2f2;
+    cursor: pointer;
+    border: none;
+}
+.sticky-btn{
+	padding: 1%;
+	font-size: 12px;
+	background-color: #4CAF50;
+	color: #f2f2f2;
+	cursor: pointer;
+	border:none;
+	margin-left: 2%
+}
+
+.card-container{
+	 width: 60%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+  	box-shadow: 6px 5px 1px rgba(0, 0, 0, .08);
+    display: inline-block;
+    overflow: auto;
+
+}
+.card-container .bg-olive{
+  background-color: #a5b74a!important;
+
+}
+   
+.sticky-note-card{
+	width: 90%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    height: 200px;
+    background-color: #d8c6a6;
+    display: inline-block;
+    overflow: auto;
+
+}
+.myColor{
+    height: 30px;
+    width: 8%;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    
+    font-size: 12px;
+  }
+
+.card-container{
+  width: 97%;
+    margin: 1% 2%;
+}
+
+.topnav .search-container {
+    padding-bottom: 2%;
+    margin: 0% 19%;
+    float:left;
+}
+
+.topnav a{
+  width: 100%;
+} 
+
+.topnav #searchString{
+    font-size: 11px;
+    width: 188%;
+}
+
+.topnav .search-container button {
+display: none;
+}
+
+
+}
